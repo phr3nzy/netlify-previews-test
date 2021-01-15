@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "tailwindcss/tailwind.css";
-import logo from "../assets/logo/meta.svg";
+
 export default function Home() {
   const [response, setresponse] = useState([]);
 
@@ -22,7 +22,7 @@ export default function Home() {
       {/* Start of Side Bar */}
       <div className="space-y-6 flex flex-col w-1/6 shadow-md">
         <div id="logo" className="flex p-6 justify-center">
-          <img src={logo} className="w-1/2" />
+          {/* <img src={logo} className="w-1/2" /> */}
         </div>
         <div className="flex flex-col w-3/4 space-y-3 justify-between self-center">
           <p className="text-sm font-bold text-gray-400">Welcome</p>
